@@ -2,15 +2,20 @@
 
 A new Flutter project.
 
-## Getting Started
+## Provider Folder
+LoveNoteProvider
 
-This project is a starting point for a Flutter application.
+There's same provider for both add note and home screen 
+(For CRUD functions and on-momery storage)
 
-A few resources to get you started if this is your first Flutter project:
+## Screen Folder
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+when program start, homescreen.dart will run
+receive notes from the provider 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+on AddScreen.dart, notes will store on the provider and refresh the state on the homescreen.dart and show 
+
+
+
+
+
